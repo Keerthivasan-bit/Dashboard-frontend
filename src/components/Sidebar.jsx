@@ -22,7 +22,7 @@ const Sidebar = ({ isOpen, setIsOpen }) => {
       <nav className="mt-4">
         <button
           className="w-full flex items-center gap-3 px-4 py-3 text-left bg-[#5f9b5f] hover:bg-[#1c611c] transition-colors rounded-md"
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/dashboard")}
         >
           <i className="fa-solid fa-user"></i>
           <span>User</span>
